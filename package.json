@@ -1,0 +1,30 @@
+{
+  "name": "abdulhafiz-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Abdulhafiz Nasir - Software Engineer, Frontend Developer, and Cybersecurity Enthusiast",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,md}\""
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "frontend",
+    "cybersecurity",
+    "engineer"
+  ],
+  "author": "Abdulhafiz Nasir",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {}
+}
